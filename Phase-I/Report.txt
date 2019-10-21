@@ -1,0 +1,19 @@
+Task:  Design a system for a red coloured magical heart pendant that blinks 60 times a minute and stops blinking and turns blue during night.
+
+Apparatus: Two LEDs (RED and BLUE), Breadboard, Jumper Wires, LDR (Light Dependent Resistor), Resistors and Arduino UNO. 
+
+**The limiting Current of LEDs is 20mA; hence, resistors of      250ohm are used for 5V input.
+
+Concept: An Arduino is an on board microcontroller. And it can be programmed via language processing.
+LDR is a light dependent resistor, its value of resistance changes in accordance with the intensity of light falling on it. These analog values are converted to digital values with the help of inbuilt ADC (Analog to Digital Converter).
+Range of Values: 0 to 1023
+We have used the above properties to build the necessary device for our task.
+
+Note: The Red LED will glow (blink) our Heart Pendant red during day and the blue LED will glow the pendent blue during night (dark).
+
+Precautions:
+1)	Do not short the pins of the Arduino.
+2)	Check the polarity of the LED before connecting.
+3)	Make sure proper resistors are used.
+
+  
