@@ -20,9 +20,9 @@ Serial.println(res);
 if(res>500)
 	{
 	digitalWrite(blue,LOW);
-	delay(1000);
+	delay(500);
 	digitalWrite(red,HIGH);
-	delay(1000);
+	delay(500);
 	digitalWrite(red,LOW);
     	}
 else
